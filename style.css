@@ -1,0 +1,114 @@
+body {
+	font-family: "Poppins", sans-serif;
+	margin: 50px 50px 0 50px;
+	background-color: #202020;
+	display: flex;
+	flex-direction: column;
+	min-height: 95vh;
+	color: beige;
+}
+.main {
+	flex: 1;
+}
+
+h1 {
+	font-size: 5rem;
+	font-weight: bolder;
+}
+
+footer {
+	text-align: right;
+	color: rgb(255, 255, 255);
+}
+.logo {
+	margin-top: -5px;
+	height: 200px;
+	width: 400px;
+	image-resolution: 100%;
+	border-radius: 26px;
+}
+
+.tile-image {
+	margin-right: 20px;
+	float: left;
+	height: 200px;
+	border-radius: 20px;
+}
+
+.left {
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	background-color: rgba(51, 47, 42, 0.911);
+	border-radius: 10px;
+	transition-duration: 0.5s;
+}
+
+.card {
+	width: 45%;
+	background-color: ;
+}
+
+.right {
+	float: right;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	background-color: rgba(41, 39, 37, 0.911);
+	transition-duration: 0.5s;
+}
+.a1 {
+	color: rgb(0, 248, 248);
+	font-weight: 800;
+}
+.a2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(255, 109, 12);
+	font-weight: 800;
+}
+.a3 {
+	color: rgba(153, 20, 214, 0.836);
+	font-weight: 800;
+}
+.a4 {
+	color: burlywood;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.left:hover {
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	background-color: #9a9fa3;
+}
+.right:hover {
+	transform: scale(1.1);
+
+	background-color: #4f5255;
+}
+@media (max-width: 680px) {
+	.logo {
+		height: 160px;
+		width: 300px;
+	}
+
+	h1 {
+		font-size: 2rem;
+		text-align: center;
+	}
+	.card {
+		display: block;
+		margin-bottom: 30px;
+		width: 100%;
+		text-align: justify;
+	}
+	.card img {
+		display: inline;
+		width: 100%;
+		object-fit: cover;
+		margin-bottom: 10px;
+	}
+}
+@media (min-width: 680px) and (max-width: 1200px) {
+	body {
+		align-items: center;
+	}
+}
